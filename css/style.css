@@ -352,12 +352,12 @@ header nav ul li a:hover{
 }
 
 #pf .pfbg .pfinfo>a.left{
-  top: calc(200px - 15px); left: 0;
+  top: calc(175px - 15px); left: 0;
   background-image: url(../img/angle-left-solid.svg);
 }
 
 #pf .pfbg .pfinfo>a.right{
-  top: calc(200px - 15px); right: 0;
+  top: calc(175px - 15px); right: 0;
   background-image: url(../img/angle-right-solid.svg);
 }
 
