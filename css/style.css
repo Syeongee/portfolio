@@ -174,9 +174,10 @@ header nav ul li a:hover{
 
 #skill{width: 100%;}
 #skill .skbox{padding: 80px 0; height: auto;}
-#skill .skbox .skinfo{width: 60%; margin: 0 auto; }
+#skill .skbox .skinfo{width: 90%; margin: 0 auto; }
 #skill .skbox .skinfo p {
-  margin: 40px 0; text-align: center;
+  width: 70%;
+  margin: 40px auto; text-align: center;
   font-family: "Gowun Batang", serif;
   font-size: 12px; color: #313131; 
   
@@ -290,7 +291,7 @@ header nav ul li a:hover{
 
 #pf .pfbg .pfinfo ul>li img{
   display: block; 
-  width: 300px; height: auto;
+  width: 280px; height: auto;
 }
 
 /* 내용 */
@@ -377,7 +378,7 @@ header nav ul li a:hover{
   margin: 50px auto 50px; display: flex; justify-content: space-between;}
 #ct div ul.ctinfo{
   display: flex; flex-direction: column; 
-  justify-content: center; margin-right: 10px;
+  justify-content: center; margin-right: 15px;
 }
 #ct div ul.ctinfo li{
   text-align: left; margin-bottom: 40px; 
@@ -407,7 +408,7 @@ section.end{
 section.end p{
   display: block;
   text-align: center; color: #fff; justify-content: center;
-  font-family: "Gowun Batang", serif; font-size: 0.7rem;
+  font-family: "Gowun Batang", serif; font-size: 0.6rem;
   line-height: 18px; padding: 32px 0;
 }
 
