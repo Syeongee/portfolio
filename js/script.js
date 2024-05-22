@@ -1,6 +1,4 @@
-window.onload = function(){
-
-  $(document).ready(function(){
+$(document).ready(function(){
 
     console.log("경로 뭐가 문제지")
 
@@ -93,14 +91,14 @@ window.onload = function(){
 
 
     
-  });
+});
   
 
 
 
 
 
-};
+
 
 
 
