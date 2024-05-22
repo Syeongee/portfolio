@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-    console.log("경로 뭐가 문제지")
-
 
     var $dstit = document.querySelector(".dstit");
     var $dwtit = document.querySelector(".dwtit");
@@ -91,7 +89,7 @@ $(document).ready(function(){
 
 
     
-});
+  });
   
 
 
