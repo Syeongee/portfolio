@@ -390,7 +390,6 @@ header nav ul li a:hover{
   font-size: 0.8rem; color: #4e4e4e; font-weight: bold;
 }
 
-#ct div ul.ctimg{}
 #ct div ul.ctimg li{
   width: 180px; height: 250px; 
   background-image: url(../img/셀렉보정본\ \(2\)_수정.jpg);
@@ -788,7 +787,6 @@ section h2{text-align: center; font-size: 4rem; color: #b9d183;
     font-size: 15px; color: #4e4e4e; font-weight: bold;
   }
   
-  #ct div ul.ctimg{}
   #ct div ul.ctimg li{
     width: 360px; height: 430px; 
     background-image: url(../img/셀렉보정본\ \(2\)_수정.jpg);
