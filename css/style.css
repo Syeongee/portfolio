@@ -150,7 +150,7 @@ header nav ul li a:hover{
 #about .aboutbg .box .tag li:nth-child(4){margin-left: 0;} */
 
 
-#about .aboutbg .box .tag li:hover{
+/* #about .aboutbg .box .tag li:hover{
   padding: 3px 8px;
   background-color: rgba(255, 255, 255, 0.4);
   transition-timing-function: ease;
@@ -158,7 +158,7 @@ header nav ul li a:hover{
   border-radius: 15px;
   border-width: 3px; border-color: #ffb56f;
   border-style: solid;
-}
+} */
 
 #about .aboutbg .box .tag li a{color: #ff7b00;}
 
