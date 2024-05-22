@@ -88,26 +88,6 @@ $btn_left.addEventListener("click", function(){
 
 
 
-
-
-// 디자인 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 };
 
 
