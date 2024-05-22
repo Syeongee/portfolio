@@ -679,6 +679,7 @@ section h2{text-align: center; font-size: 4rem; color: #b9d183;
     height: 490px;
     display: flex; align-items: center;
     justify-content: space-between;
+    overflow: hidden;
   }
   #pf .pfbg .pfinfo ul>li{
     width: 50%; text-align: center;
