@@ -18,21 +18,21 @@ window.onload = function(){
       $(".pfds").css("display", "flex");
       $(".pfdw").css("display", "none");
       $(".pfweb").css("display", "none");
-      $dsimg.setAttribute("src", `../portfolio/img/menu${one}.jpg`);
+      $dsimg.setAttribute("src", `./img/menu${one}.jpg`);
     });
     
     $dwtit.addEventListener("click", function(){
       $(".pfds").css("display", "none");
       $(".pfdw").css("display", "flex");
       $(".pfweb").css("display", "none");
-      $dwimg.setAttribute("src", `../portfolio/img/drawing${one}.jpg`);
+      $dwimg.setAttribute("src", `./img/drawing${one}.jpg`);
     });
     
     $webtit.addEventListener("click", function(){
       $(".pfds").css("display", "none");
       $(".pfdw").css("display", "none");
       $(".pfweb").css("display", "flex");
-      $webimg.setAttribute("src", `../portfolio/img/web${one}.jpg`);
+      $webimg.setAttribute("src", `./img/web${one}.jpg`);
       $(`.web${one}`).css("display", "block");
 
     });
@@ -58,9 +58,9 @@ var out = 3
 
 $btn_right.addEventListener("click", function(){
 
-    $dsimg.setAttribute("src", `../portfolio/img/menu${init}.jpg`);
-    $dwimg.setAttribute("src", `../portfolio/img/drawing${init}.jpg`);
-    $webimg.setAttribute("src", `../portfolio/img/web${init}.jpg`);
+    $dsimg.setAttribute("src", `./img/menu${init}.jpg`);
+    $dwimg.setAttribute("src", `./img/drawing${init}.jpg`);
+    $webimg.setAttribute("src", `./img/web${init}.jpg`);
     init++
     if(init == 4){  
         init = 1
@@ -72,9 +72,9 @@ $btn_right.addEventListener("click", function(){
 
 
 $btn_left.addEventListener("click", function(){
-  $dsimg.setAttribute("src", `../portfolio/img/menu${out}.jpg`);
-  $dwimg.setAttribute("src", `../portfolio/img/drawing${out}.jpg`);
-  $webimg.setAttribute("src", `../portfolio/img/web${out}.jpg`);
+  $dsimg.setAttribute("src", `./img/menu${out}.jpg`);
+  $dwimg.setAttribute("src", `./img/drawing${out}.jpg`);
+  $webimg.setAttribute("src", `./img/web${out}.jpg`);
   --out;
   if(out == 0){
       out = 3
